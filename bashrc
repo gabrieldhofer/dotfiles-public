@@ -15,7 +15,6 @@ bind -x '"\C-h":" vi ~/.vimrc "'
 alias e=" cd .. ; df "
 
 ####---------------------------------------------------------------
-#### There's room for improvement, but it works
 #### 
 #### Explanation: 
 ####
