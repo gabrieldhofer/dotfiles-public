@@ -1,5 +1,5 @@
 ####---------------------------------------------------------------
-#### Saves time when experimenting with bashra/vimrc modifications
+#### Saves time when experimenting with bashrc/vimrc modifications
 ####---------------------------------------------------------------
 bind -x '"\C-g":" vi ~/.bashrc ; source ~/.bashrc ; echo .bashrc reloaded "'
 bind -x '"\C-h":" vi ~/.vimrc "'
