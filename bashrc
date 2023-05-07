@@ -3,6 +3,8 @@
 ####---------------------------------------------------------------
 bind -x '"\C-g":" vi ~/.bashrc ; source ~/.bashrc ; echo .bashrc reloaded "'
 bind -x '"\C-h":" vi ~/.vimrc "'
+bind -x '"\C-j":" vi main.py ; clear ; df "'
+
 
 ####---------------------------------------------------------------
 #### probably use eventuallly
