@@ -1,6 +1,6 @@
 inoremap df <Esc>
-map <C-j> 6j
-map <C-k> 6k
+map <S-j> 6j
+map <S-k> 6k
 map <CR> O<Esc>
 map ' dd
 noremap m ZZ
