@@ -31,28 +31,30 @@ alias e=" cd .. ; df "
 df(){
   i=1
   # directories first
-  for f in * 
-  do 
+  echo "DIRS"
+  for f in *
+  do
     if [[ -d $f ]]
-    then 
-      echo -e "\e[1;33m   $i.  $f \e[0m"
-      alias $i=" cd '$f' ; df "      
+    then
+      echo -e "\e[1;33m   $i.  $f/ \e[0m"
+      alias $i=" cd '$f' ; df "
       i=$((i+1))
-    fi 
+    fi
   done
   # files second
+  echo "FILES"
   for f in *
   do
     if [[ -f $f ]]
     then
       if [[ -x $f ]]
-      then 
+      then
         echo -e "$i.\e[1;44m     $f \e[0m"
-      else 
+      else
         echo -e "$i.\e[1;36m     $f \e[0m"
-      fi 
-      alias $i=" vi '$f' "      
-      i=$((i+1))              
-    fi 
+      fi
+      alias $i=" vi '$f' "
+      i=$((i+1))
+    fi
   done
 }
