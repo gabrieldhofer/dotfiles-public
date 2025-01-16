@@ -251,10 +251,10 @@ function print_formatted_path() {
   #------------------
   # AI generated code
   #------------------
-	IFS=:
-	for dir in $PATH; do
-					printf "%s\n" "$dir"
-	done
+  IFS=:
+  for dir in $PATH; do
+    printf "%s\n" "$dir"
+  done
 }
 alias fp=print_formatted_path
 ```
