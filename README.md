@@ -248,9 +248,9 @@ getopts
 #### Print formatted PATH
 ```bash
 function print_formatted_path() {
-	#------------------
-	# AI generated code
-	#------------------
+  #------------------
+  # AI generated code
+  #------------------
 	IFS=:
 	for dir in $PATH; do
 					printf "%s\n" "$dir"
@@ -262,9 +262,9 @@ alias fp=print_formatted_path
 #### Add to PATH
 ```bash
 function add_to_path {
-	#------------------
-	# AI generated code
-	#------------------
+  #------------------
+  # AI generated code
+  #------------------
   if [ -d "$1" ]; then
     export PATH="$1:$PATH"
     echo "Added $1 to PATH."
@@ -277,9 +277,9 @@ function add_to_path {
 #### Remove from PATH
 ```bash
 function remove_from_path() {
-	#------------------
-	# AI generated code
-	#------------------
+  #------------------
+  # AI generated code
+  #------------------
   local dir_to_remove="$1"
 
   if [[ -z "$dir_to_remove" ]]; then
@@ -301,10 +301,10 @@ function remove_from_path() {
 #### Remove from PATH by index
 ```bash
 remove_from_path_by_index() {
-	#------------------
-	# AI generated code
-	# date: 2025-01-14
-	#------------------
+  #------------------
+  # AI generated code
+  # date: 2025-01-14
+  #------------------
   local index="$1"
   local path_array=(${PATH//:/ })
 
