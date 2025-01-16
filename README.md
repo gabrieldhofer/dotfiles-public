@@ -318,6 +318,7 @@ remove_from_path_by_index() {
 }
 ```
 
+#### Readme shortcut
 ```bash
 alias rdm="vi readme.md"
 ```
