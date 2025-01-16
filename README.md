@@ -1,11 +1,9 @@
-Goto parent directory
-"""""""""""""""""""""
+#### Goto parent directory
 ```bash
 alias e=" cd .. ; "
 ```
 
-Git push helpers
-""""""""""""""""
+#### Git push helpers
 ```bash
 alias mc='  make clean '
 alias ga='  git add . '
@@ -15,8 +13,7 @@ alias gp='  git push '
 alias gg='  mc ; ga ; gc ; gt ; gp ; '
 ```
 
-Git helpers
-"""""""""""
+#### Git helpers
 ```bash
 alias gd=' git diff '
 alias gst=' git status '
@@ -31,8 +28,7 @@ alias ev='  evince '
 alias pdf=' pdflatex '
 ```
 
-Print info about Git commands 
-"""""""""""""""""""""""""""""
+#### Print info about Git commands 
 TODO: fix formatting... replace with printf
 ```bash
 j2(){
@@ -68,8 +64,7 @@ j2(){
 }
 ```
 
-Output datetime to stdout
-"""""""""""""""""""""""""
+#### Output datetime to stdout
 ```bash
 dt(){
   vi ~/.bashrc
@@ -79,8 +74,7 @@ dt(){
 }
 ```
 
-Edit .bashrc
-""""""""""""
+#### Edit .bashrc
 ```bash
 b(){
   vi ~/.bashrc ;
@@ -90,8 +84,7 @@ b(){
 }
 ```
 
-Edit .vimrc
-"""""""""""
+#### Edit .vimrc
 ```bash
 v(){
   vi ~/.vimrc ;
@@ -100,8 +93,7 @@ v(){
 }
 ```
 
-Run 'make'
-""""""""""
+#### Run 'make'
 ```bash
 m(){
   vi ./Makefile
@@ -110,8 +102,7 @@ m(){
 }
 ```
 
-Custom Directory Listing
-""""""""""""""""""""""""
+#### Custom Directory Listing
 ```bash
 j(){
   # ++-----------------------++
@@ -175,8 +166,7 @@ j(){
 }
 ```
 
-Create New Branch
-"""""""""""""""""
+#### Create New Branch
 ```bash
 newbranch(){
   #-------------------------------------------------------------+
@@ -233,8 +223,7 @@ newbranch(){
 }
 ```
 
-Angular Stuff
-"""""""""""""
+#### Angular Stuff
 ```bash
 #export PATH=$PATH:/mnt/c/Users/Owner/Desktop/node-v20.18.1-linux-x64/bin
 alias ngbuild1='ng build --configuration production --base-href "https://gabrieldhofer.github.io/'
@@ -249,8 +238,7 @@ function ngbuild1(){
 }
 ```
 
-Random commands to remember
-"""""""""""""""""""""""""""
+#### Random commands to remember
 ```bash
 type
 whereis
