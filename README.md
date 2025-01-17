@@ -251,6 +251,9 @@ function print_formatted_path() {
   #------------------
   # AI generated code
   #------------------
+  echo "+-------------------+"
+  echo "|       PATH        |"
+  echo "+-------------------+"
   IFS=:
   for dir in $PATH; do
     printf "%s\n" "$dir"
